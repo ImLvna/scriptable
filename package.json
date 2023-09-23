@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "bun run ./build.ts",
+    "start": "bun run server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "@types/scriptable-ios": "^1.7.1",
+    "bun-types": "^1.0.3",
+    "esbuild": "^0.19.3",
+    "itty-router": "^4.0.23",
+    "serve-static-bun": "^0.5.3",
+    "typescript": "^5.2.2"
+  }
+}
