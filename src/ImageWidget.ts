@@ -5,6 +5,9 @@
 
   */
 
+// Scriptable Metadata
+//! icon-color: deep-green; icon-glyph: cannabis;
+
 const manager = FileManager.local();
 
 const dir = manager.joinPath(manager.documentsDirectory(), "widgetImages");

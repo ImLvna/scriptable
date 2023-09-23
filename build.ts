@@ -34,6 +34,7 @@ for (const file of files) {
         BASE_URL: "'http://192.168.1.40:8080'",
       },
       format: "esm",
+      legalComments: "inline",
     })
   );
 }

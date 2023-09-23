@@ -5,6 +5,9 @@
 
   */
 
+// Scriptable Metadata
+//! icon-color: pink; icon-glyph: eye-dropper;
+
 const manager = FileManager.iCloud();
 
 const dir = manager.documentsDirectory();

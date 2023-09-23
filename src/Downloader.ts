@@ -3,6 +3,9 @@
 
   */
 
+// Scriptable Metadata
+//! icon-color: deep-gray; icon-glyph: server;
+
 // Wrapped in an async function to allow returning because esbuild is silly
 (async () => {
   const filesRequest = new Request(`${BASE_URL}/files`);
